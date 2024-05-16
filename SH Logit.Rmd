@@ -1,0 +1,357 @@
+---
+title: "Bovine Tuberculosis in Central Ethiopian Slaughterhouses (statistical analysis)"
+author: "Abebe Fromsa and Andrew Conlan"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+Load packages.
+
+```{r, echo=TRUE,warning=FALSE,results=FALSE,message=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(sjPlot)
+library(gtsummary)
+library(flextable)
+library(dlookr)
+```
+
+Load and reshape data, defining factor variables and levels:
+
+```{r}
+TBL_Plus <-read.csv('SH Survey TBL Psoitive of Total examined.csv', stringsAsFactors = FALSE)
+names(TBL_Plus)
+
+TBL_Plus$Sex <- as.factor(TBL_Plus$Sex)
+TBL_Plus$SH <- as.factor(TBL_Plus$SH)
+TBL_Plus$Breed <- as.factor(TBL_Plus$Breed)
+
+TBL_Plus$Sex1 <- factor(TBL_Plus$Sex, c("Male", "Female"))
+TBL_Plus$SH1 <- factor(TBL_Plus$SH, c("Sululta", "Adama", "Burayu", "Elfora" ))
+TBL_Plus$Breed1 <- factor(TBL_Plus$Breed, c("Zebu", "Cross"))
+
+CulturePlusAnimLevel <-read.csv('Animal level CultureStatus.csv', stringsAsFactors = FALSE)
+names(CulturePlusAnimLevel)
+
+CulturePlusAnimLevel$Sex <- as.factor(CulturePlusAnimLevel$Sex)
+CulturePlusAnimLevel$SH <- as.factor(CulturePlusAnimLevel$SH)
+CulturePlusAnimLevel$Breed <- as.factor(CulturePlusAnimLevel$Breed)
+
+CulturePlusAnimLevel$Sex2 <- factor(CulturePlusAnimLevel$Sex, c("Female", "Male"))
+CulturePlusAnimLevel$SH2 <- factor(CulturePlusAnimLevel$SH, c("Sululta", "Adama", "Burayu", "Elfora" ))
+CulturePlusAnimLevel$Breed2 <- factor(CulturePlusAnimLevel$Breed, c("Zebu", "Cross"))
+
+
+Culture_Plus_TBLbyBodyRegion <-read.csv('SH Survey Culture Positive of all TBL.csv', stringsAsFactors = FALSE)
+names(Culture_Plus_TBLbyBodyRegion)
+
+
+```
+
+Tabulate number of positive TB samples collected by aniaml (N_TBL_Plus) and region:
+
+
+```{r,echo=FALSE}
+tab_xtab(var.row = CulturePlusAnimLevel$SH,
+         var.col = CulturePlusAnimLevel$N_TBL_Plus,
+         show.row.prc = TRUE)
+```
+
+
+# Regression models for proportion of animals with lesions
+
+We first consider the association between measured risk factors and the probability of animals having visible lesions. We perform a univariate screen with a generous cutoff for variable inclusion (p-values of < 0.1) followed by a stepwise variable selection procedure.
+
+Univariate screen for risk factors:
+
+```{r,echo=FALSE}
+
+uvlm_table <- TBL_Plus %>%
+ select(TBL_1Pos_0Neg, Sex1, Breed1, SH1 ) %>%
+  tbl_uvregression(
+    method       = glm,
+    y            = TBL_1Pos_0Neg,
+    method.args  = list(family = binomial),
+    exponentiate = TRUE
+  ) %>% 
+  bold_p(t=0.05) %>% 
+  bold_labels() %>% 
+  add_n(location = "level") %>% 
+  add_nevent(location = "level") %>% 
+  modify_spanning_header(
+    all_stat_cols() ~ "**Odds of TBL positivity**",quiet = TRUE)  %>% 
+  modify_table_styling(columns = c(estimate, ci),
+          rows = reference_row==TRUE,
+          missing_symbol = "Ref.") 
+ uvlm_table
+ 
+#%>% 
+  #as_flex_table() %>% 
+  #save_as_docx(path = "PPDB IGRA Univariate OR.docx")
+```
+
+All variables have p-values < 0.1 - retain for inclusion in multivariate model and perform step wise variable selection (forwards and backwards):
+
+```{r,echo=FALSE}
+TBLPlusMultlogit <- TBL_Plus %>%
+select(TBL_1Pos_0Neg ,  Sex1, Breed1, SH1 )
+
+bm <- glm(TBL_1Pos_0Neg ~    Sex1 +Breed1 + SH1, family = binomial, data = TBLPlusMultlogit ) 
+
+bm <- step(bm,directions=BOTH)
+```
+
+All risk factors are retained by the stepwise (AIC) selection procedure.
+
+
+```{r,echo=FALSE}
+bm_table1 <- tbl_regression(bm, exponentiate = FALSE) 
+
+bm_table <- tbl_regression(bm, exponentiate = TRUE) 
+bm_table <- bm_table %>% 
+  add_n(location="level") %>%
+  add_nevent(location="level") %>% 
+  modify_table_styling(columns = c(estimate, ci),
+          rows = reference_row==TRUE,
+          missing_symbol = "Ref.")  %>% 
+  bold_p(t=0.05) 
+
+```
+
+Combine results from univariate and multivariate models:
+
+```{r,echo=FALSE}
+tbl_merge(
+    tbls        = list(tbl_summary(TBLPlusMultlogit), bm_table1, bm_table),
+    tab_spanner = c("**Describe**", "**Untransformed**", "**Transformed**")
+  ) 
+```
+
+# Regression models for proportion of culture positivity in lesioned animals
+
+We next build a model for consideration of the association between measured risk factors and the probability of animals with visible lesions being confirmed by culture. We perform a univariate screen with a generous cutoff for variable inclusion (p-values of < 0.1) followed by a step-wise variable selection procedure.
+
+Only one animal from the Elfora region was lesioned (and culture negative) so remove these animal from analysis to avoid overfitting: 
+
+```{r}
+CulturePlusAnimLevel <- CulturePlusAnimLevel %>% filter(SH2!='Elfora')
+CulturePlusAnimLevel <- CulturePlusAnimLevel %>% mutate(SH2=as.factor(as.character(SH2)))
+
+```
+
+Univariate screen:
+
+```{r,echo=FALSE}
+
+uvlm_table <- CulturePlusAnimLevel %>%
+ select(Culture_status ,  Sex2, Breed2, SH2) %>%  
+  tbl_uvregression(
+    method       = glm,
+    y            = Culture_status,
+    method.args  = list(family = binomial),
+    exponentiate = TRUE
+  ) %>% 
+  bold_p(t=0.05) %>% 
+  bold_labels() %>% 
+  add_n(location="level") %>%
+  add_nevent(location="level") %>% 
+  modify_spanning_header(
+    all_stat_cols() ~ "**Odds of Culture Positivity**",quiet = TRUE)  %>% 
+  modify_table_styling(columns = c(estimate, ci),
+          rows = reference_row==TRUE,
+          missing_symbol = "Ref.")  
+
+ uvlm_table
+ 
+```
+
+For culture positivity Sex and Breed pass the univariable screen, both with p-values < 0.001, region (SH2) is excluded.
+
+```{r,echo=FALSE}
+CulturePlusMultlogitAnimLevel <- CulturePlusAnimLevel %>%
+ select(Culture_status ,  Sex2, Breed2)
+
+bm <- glm(Culture_status ~    Sex2 + Breed2, family = binomial, data = CulturePlusMultlogitAnimLevel )
+
+bm <- step(bm,directions=BOTH)
+```
+Sex and breed both retained by stepwise procedure.
+
+```{r,echo=FALSE}
+bm_table1 <- tbl_regression(bm, exponentiate = FALSE) 
+bm_table <- tbl_regression(bm, exponentiate = TRUE)  %>% 
+  modify_table_styling(columns = c(estimate, ci),
+          rows = reference_row==TRUE,
+          missing_symbol = "Ref.")  %>% 
+  bold_p(t=0.05) 
+
+```
+
+
+
+```{r,echo=FALSE}
+
+tbl_merge(
+    tbls        = list(tbl_summary(CulturePlusMultlogitAnimLevel), bm_table1, bm_table),
+    tab_spanner = c("**Describe**", "**Untransformed**", "**Transformed**")
+  ) 
+
+
+```
+
+
+
+# Regression models for proportion of culture positivity in lesion samples (startified by body region)
+
+Finally, we build a model for the association between culture confirmation of a sampled lesion and body region, while adjusting for the previous set of risk factors. Drop "Other" region as zero (culture) positive samples and drop (single) sample from Elfora region as above: 
+
+```{r}
+
+CulturebyBodyRegion <- Culture_Plus_TBLbyBodyRegion #%>% filter(Body_Region!='Other')
+#CulturebyBodyRegion <- CulturebyBodyRegion %>% mutate(Body_Region = as.factor(as.character(Body_Region)))
+
+CulturebyBodyRegion <- CulturebyBodyRegion %>% filter(SH!='Ab-Elf')
+CulturebyBodyRegion <- CulturebyBodyRegion %>% mutate(SH=as.factor(as.character(SH)))
+
+CulturebyBodyRegion <- CulturebyBodyRegion %>% mutate(Breed=factor(Breed,c('Zebu','Cross')))
+
+
+```
+
+Perform univariable screen:
+
+```{r,echo=FALSE,warning=FALSE}
+
+uvlm_table <- CulturebyBodyRegion %>%
+ select(LJ0Vs1Tissuelevel , Breed, Sex, SH, Body_Region ) %>%
+  tbl_uvregression(
+    method       = glm,
+    y            = LJ0Vs1Tissuelevel,
+    method.args  = list(family = binomial),
+    exponentiate = TRUE
+  ) %>% 
+  bold_p(t=0.05) %>% 
+  bold_labels() %>% 
+  add_n(location = "level") %>% 
+  add_nevent(location = "level") %>% 
+  modify_spanning_header(
+    all_stat_cols() ~ "**Odds of TBL positivity**",quiet = TRUE) %>% 
+  modify_table_styling(columns = c(estimate, ci),
+          rows = reference_row==TRUE,
+          missing_symbol = "Ref.") 
+ uvlm_table
+ 
+
+```
+
+Breed, Sex and Body Region retained after univariable screen and included for stepwise selection:
+
+```{r,echo=FALSE,warning=FALSE}
+CulturePlusMultlogit <- CulturebyBodyRegion %>%
+select(LJ0Vs1Tissuelevel ,   Breed, Sex, Body_Region)
+
+bm <- glm(LJ0Vs1Tissuelevel ~  Breed + Sex + Body_Region , family = binomial, data = CulturePlusMultlogit ) 
+bm <- step(bm, direction='both')
+
+
+```
+All variables are retained after stepwise procedure.
+
+
+```{r,echo=FALSE,warning=FALSE}
+
+bm_table1 <- tbl_regression(bm, exponentiate = FALSE)
+
+bm_table <- tbl_regression(bm, exponentiate = TRUE) %>% 
+  modify_table_styling(columns = c(estimate, ci),
+          rows = reference_row==TRUE,
+          missing_symbol = "Ref.")  %>% 
+  bold_p(t=0.05) 
+
+```
+
+
+
+```{r,echo=FALSE}
+tbl_merge(
+    tbls        = list(tbl_summary(CulturePlusMultlogit), bm_table1, bm_table),
+    tab_spanner = c("**Describe**", "**Untransformed**", "**Transformed**")
+  ) 
+
+```
+
+
+Tabulate number of lesions stratified by organ:
+
+```{r,echo=FALSE}
+tab_xtab(var.row = Culture_Plus_TBLbyBodyRegion$OrganOrLN,
+         var.col = Culture_Plus_TBLbyBodyRegion$LJ0Vs1Tissuelevel,
+         show.row.prc = TRUE)
+```
+
+
+
+```{r,echo=FALSE}
+Culture_Plus_TBLbyBodyRegion %>%
+ select(LJ0Vs1Tissuelevel , Body_Region, OrganOrLN) %>% 
+ tbl_summary( 
+            by = LJ0Vs1Tissuelevel,
+            percent = "row",
+            digits = ~4) %>% 
+  add_n() %>% 
+  add_overall()
+
+```
+
+# CT values 
+
+```{r}
+Ct <-read.csv('PCR_Ct_94.csv', stringsAsFactors = FALSE)
+names(Ct)
+```
+
+```{r}
+CtSelect <- Ct %>% 
+  select(M_ani_Ct_HK, IS1081_Ct_PurD, M_ani_Ct_PurD, M_Hum_Ct_PurD, M_bovis_Ct_PurD, M_Caprae_Ct_PurD ) 
+  
+```
+
+
+```{r,echo=FALSE}
+CtSelect %>% 
+  univar_numeric() %>% 
+  knitr::kable()
+```
+
+# Map of location of slaughterhouses
+
+```{r,echo=FALSE}
+library(leaflet)
+# Define the coordinates for Adama, Bishoftu, Burayu, and Sululta towns
+towns <- data.frame(
+  town = c("Adama", "Bishoftu", "Burayu", "Sululta"),
+  lon = c(39.2765, 38.9784, 38.3549, 38.7764),
+  lat = c(8.5420, 8.7446, 9.0578, 9.0852)
+)
+
+# Create a map of Ethiopia
+ethiopia_map <- leaflet() %>%
+  addTiles() %>%
+  setView(lng = 39.9992, lat = 9.145, zoom = 6) # Centered around Ethiopia
+
+# Add markers for each town
+for (i in 1:nrow(towns)) {
+  ethiopia_map <- ethiopia_map %>%
+    addMarkers(data = towns[i,], lng = ~lon, lat = ~lat, popup = ~town)
+}
+```
+
+
+
+```{r,echo=FALSE}
+# Display the map
+ethiopia_map
+ggsave(file = "Study sites.tiff", units="in", width=6, height=7, dpi=1200)
+```
+

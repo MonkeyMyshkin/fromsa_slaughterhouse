@@ -1,0 +1,7 @@
+*.rds
+*cache
+.Rhistory
+.DS_Store
+*.RData
+*.pptx
+*.tiff

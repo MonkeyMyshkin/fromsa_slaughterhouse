@@ -1,0 +1,389 @@
+﻿S.No,CultureID,SH,AnimalID, Collectiondate,ButcherID,Breed,Sex,DateCultured,LJ0Vs1Tissuelevel,LJResult,Body_Region,OrganOrLN,OrganWithTBLSampled
+1,Ab-Ad-001,Ab-Adama,22/2/2018135A,28-Dec-18,135A,Zebu,Male,29-Jan-19,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+2,Ab-Ad-002,Ab-Adama,4340511A11,11-Jan-19,11A11,Zebu,Male,29-Jan-19,0,Negative,Head associated,Retropharyngeal,Right Medial Retropharyngeal
+3,Ab-Ad-003,Ab-Adama,4340511A11,11-Jan-19,11A11,Zebu,Male,29-Jan-19,0,Negative,Head associated,Retropharyngeal,Left Medial Retropharyngeal 
+4,Ab-Ad-004,Ab-Adama,43405111B,11-Jan-19,111B,Zebu,Male,29-Jan-19,1,Positive,Lung associated,Tracheobronchial,Left tracheobronchial
+5,Ab-Ad-005,Ab-Adama,18/1/201838,18-Jan-19,38,Zebu,Male,29-Jan-19,0,Negative,Head associated,Retropharyngeal,Right Medial Retropharyngeal
+6,Ab-Ad-006,Ab-Adama,18/1/201838,18-Jan-19,38,Zebu,Male,29-Jan-19,0,Negative,Head associated,Retropharyngeal,Left Medial Retropharyngeal 
+7,Ab-Ad-007,Ab-Adama,18/1/2018180,18-Jan-19,180,Zebu,Male,29-Jan-19,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+8,Ab-Sul-008,Ab-Sul,43804184,12-May-19,184,Cross,Male,15-Jul-19,0,Negative,GIT associated,Hepatic,Hepatic
+9,Ab-Elf-009,Ab-Elf,436198,3-Jun-19,8,Zebu,Male,15-Jul-19,0,Negative,Head associated,Mandibular,Left Submandibular
+10,Ab-Sul-010,Ab-Sul,4353130,3-Jul-19,30,Cross,Female,15-Jul-19,1,Positive,Lung associated,Mediastinal,Cranial Mediastinal
+11,Ab-Sul-011,Ab-Sul,43804184,12-May-19,184,Cross,Male,15-Jul-19,1,Positive,Lung associated,Thoracic wall,Thoracic wall
+12,Ab-Sul-012,Ab-Sul,4353130,3-Jul-19,30,Cross,Female,15-Jul-19,0,Negative,Lung associated,Lung,Lung
+13,Ab-Sul-013,Ab-Sul,43804184,12-May-19,184,Cross,Male,15-Jul-19,0,Negative,GIT associated,Spleen,Spleen
+14,Ab-Sul-014,Ab-Sul,4374470,10-Jun-19,70,Zebu,Male,18-Jul-19,0,Negative,GIT associated,Hepatic,Hepatic
+15,Ab-Bur-015,Ab-Bur,21/6/2019S2,21-Jun-19,S2,Zebu,Male,18-Jul-19,0,Negative,Head associated,Mandibular,Mandibular
+16,Ab-Sul-016,Ab-Sul,4353130,3-Jul-19,30,Cross,Female,18-Jul-19,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+17,Ab-Sul-017,Ab-Sul,30/4/201951,30-Apr-19,51,Zebu,Female,18-Jul-19,0,Negative,Lung associated,Diaphragm,Diaphragm
+18,Ab-Sul-018,Ab-Sul,4377516,11-Jun-19,16,Cross,Female,18-Jul-19,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+19,Ab-Bur-019,Ab-Bur,29/6/2019533,29-Jun-01,533,Zebu,Male,18-Jul-19,0,Negative,GIT associated,Mesenteric,Mesentric
+20,Ab-Sul-020,Ab-Sul,4353130,3-Jul-19,30,Cross,Female,18-Jul-19,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+21,Ab-Sul-021,Ab-Sul,15/6/20199M,15-Jun-19,9M,Zebu,Male,24-Jul-19,0,Negative,Lung associated,Thoracic wall,Thoracic wall
+22,Ab-Sul-022,Ab-Sul,4380451,12-May-19,51,Cross,Female,24-Jul-19,0,Negative,Lung associated,Diaphragm,Diaphragm
+23,Ab-Sul-023,Ab-Sul,15/6/20199,11-May-19,4,Cross,Female,24-Jul-19,0,Negative,GIT associated,Spleen,Spleen
+24,Ab-Sul-024,Ab-Sul,15/6/20199,11-May-19,3,Cross,Female,24-Jul-19,0,Negative,Other,Mammary,Mammary
+25,Ab-Sul-025,Ab-Sul,15/6/20199,11-May-19,51,Cross,Female,24-Jul-19,0,Negative,GIT associated,Mesenteric,Mesentric
+26,Ab-Sul-026,Ab-Sul,15/6/20199M,15-Jun-19,9M,Zebu,Male,24-Jul-19,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+27,Ab-Sul-027,Ab-Sul,29/7/201910,29-Jul-19,10,Zebu,Female,30-Jul-19,0,Negative,GIT associated,Hepatic,Hepatic
+28,Ab-Sul-028,Ab-Sul,436823,8-May-19,3,Cross,Female,30-Jul-19,1,Positive,Head associated,Mandibular,Mandibular
+29,Ab-Bur-029,Ab-Bur,28/5/201960,28-May-19,60,Zebu,Male,30-Jul-19,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+30,Ab-Sul-030,Ab-Sul,43622400,6-Jun-19,400,Zebu,Male,30-Jul-19,0,Negative,GIT associated,Mesenteric,Mesentric
+31,Ab-Sul-031,Ab-Sul,4380457,12-May-19,57,Zebu,Male,30-Jul-19,0,Negative,GIT associated,Mesenteric,Mesentric
+32,Ab-Sul-032,Ab-Sul,13/5/2019186,13-May-19,186,Zebu,Male,30-Jul-19,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+33,Ab-Sul-033,Ab-Sul,15/6/20199F,15-Jun-19,9F,Cross,Female,30-Jul-19,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+34,Ab-Sul-034,Ab-Sul,29/7/201927,29-Jul-19,27,Zebu,Male,30-Jul-19,0,Negative,GIT associated,Mesenteric,Mesentric
+35,Ab-Sul-035,Ab-Sul,43529283,3-May-19,283,Zebu,Male,30-Jul-19,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+36,Ab-Bur-036,Ab-Bur,43591361,5-Jun-19,361,Zebu,Male,30-Jul-19,0,Negative,GIT associated,Mesenteric,Mesentric
+37,Ab-Sul-037,Ab-Sul,4374470,10-Jun-19,70,Zebu,Male,31-Jul-19,0,Negative,Lung associated,Diaphragm,Left Diaphragmatic
+38,Ab-Sul-038,Ab-Sul,43653234,7-Jul-19,234,Zebu,Male,31-Jul-19,0,Negative,GIT associated,Mesenteric,Mesentric
+39,Ab-Sul-039,Ab-Sul,30/4/201951,30-Apr-19,51,Cross,Female,31-Jul-19,0,Negative,GIT associated,Mesenteric,Mesentric
+40,Ab-Sul-040,Ab-Sul,22/6/201913,22-Jun-19,13,Zebu,Male,31-Jul-19,0,Negative,GIT associated,Mesenteric,Mesentric
+41,Ab-Sul-041,Ab-Sul,30/5/201922,30-May-19,22,Cross,Male,31-Jul-19,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+42,Ab-Sul-042,Ab-Sul,4374470,10-Jun-19,70,Zebu,Male,31-Jul-19,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+43,Ab-Sul-043,Ab-Sul,437744,11-May-19,4,Zebu,Male,31-Jul-19,0,Negative,GIT associated,Hepatic,Hepatic
+44,Ab-Sul-044,Ab-Sul,23/5/20197,23-May-19,7,Cross,Female,31-Jul-19,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal 
+45,Ab-Sul-045,Ab-Sul,43804184,12-May-19,184,Cross,Male,31-Jul-19,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+46,Ab-Sul-046,Ab-Sul,13/5/201951,13-May-19,51,Zebu,Male,31-Jul-19,0,Negative,GIT associated,Mesenteric,Mesentric
+47,Ab-Sul-047,Ab-Sul,43529283,3-May-19,283,Zebu,Male,1-Aug-19,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+48,Ab-Bur-048,Ab-Bur,4356279,4-Jul-19,79,Zebu,Male,1-Aug-19,0,Negative,Other,Prefemoral,Prefemoral
+49,Ab-Sul-049,Ab-Sul,23/5/20197,23-May-19,7,Cross,Female,1-Aug-19,1,Positive,Lung associated,Mediastinal,Cranial Mediastinal
+50,Ab-Bur-050,Ab-Bur,29/6/2019533,29-Jun-01,533,Zebu,Male,1-Aug-19,0,Negative,Head associated,Mandibular,Mandibular
+51,Ab-Bur-051,Ab-Bur,29/6/2019533,29-Jun-01,533,Zebu,Male,1-Aug-19,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+52,Ab-Sul-052,Ab-Sul,24/7/201957,24-Jul-19,57,Zebu,Male,1-Aug-19,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+53,Ab-Sul-053,Ab-Sul,18/5/2019119,18-May-19,119,Cross,Female,1-Aug-19,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+54,Ab-Sul-054,Ab-Sul,18/5/2019119,18-May-19,119,Cross,Female,1-Aug-19,1,Positive,Lung associated,Tracheobronchial,Left tracheobronchial
+55,Ab-Sul-055,Ab-Sul,18/5/2019119,18-May-19,119,Cross,Female,1-Aug-19,0,Positive,Lung associated,Mediastinal,Cranial Mediastinal
+56,Ab-Sul-056,Ab-Sul,18/5/2019119,18-May-19,119,Cross,Female,1-Aug-19,0,Negative,GIT associated,Hepatic,Hepatic
+57,Ab-Bur-057,Ab-Bur,24/7/2019S2,24-Jul-19,S2,Zebu,Male,6-Aug-19,1,Positive,Lung associated,Lung,Lung
+58,Ab-Bur-058,Ab-Bur,24/7/2019S2,24-Jul-19,S2,Zebu,Male,6-Aug-19,1,Positive,Lung associated,Tracheobronchial,Tracheobronchial
+59,Ab-Bur-059,Ab-Bur,4368453,8-Jul-19,53,Zebu,Male,6-Aug-19,0,Negative,Other,Prescapular,Prescapular
+60,Ab-Bur-060,Ab-Bur,4368453,8-Jul-19,53,Zebu,Male,6-Aug-19,0,Negative,Lung associated,Lung,Lung
+61,Ab-Bur-061,Ab-Bur,4356279,4-Jul-19,79,Zebu,Male,6-Aug-19,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+62,Ab-Bur-062,Ab-Bur,4368453,8-Jul-19,53,Zebu,Male,6-Aug-19,0,Negative,GIT associated,Mesenteric,Mesentric
+63,Ab-Bur-063,Ab-Bur,4368453,8-Jul-19,53,Zebu,Male,6-Aug-19,0,Negative,Head associated,Mandibular,Mandibular
+64,Ab-Bur-064,Ab-Bur,22/7/2019S1,22-Jul-19,S1,Zebu,Male,6-Aug-19,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+65, Ab-Bur-065 ,Ab-Bur,4356279,4-Jul-19,79,Zebu,Male,6-Aug-19,1,Positive,Lung associated,Tracheobronchial,Tracheobronchial
+66,Ab-Bur-066,Ab-Bur,17/6/2019S2,17-Jun-19,S2,Zebu,Male,6-Aug-19,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+67,Ab-Sul-067,Ab-Sul,29/7/201927,29-Jul-19,27,Zebu,Male,23-Aug-19,0,Negative,GIT associated,Mesenteric,Mesentric
+68,Ab-Sul-068,Ab-Sul,18/8/201916,18-Aug-19,16,Zebu,Male,23-Aug-19,0,Negative,GIT associated,Mesenteric,Mesentric
+69,Ab-Sul-069,Ab-Sul,27/7/2019279,27-Jul-19,279,Cross,Female,23-Aug-19,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+70,Ab-Sul-070,Ab-Sul,29/7/201910,29-Jul-19,10,Zebu,Female,23-Aug-19,0,Negative,GIT associated,Mesenteric,Mesentric
+71,Ab-Bur-071,Ab-Bur,17/6/2019S2,17-Jun-19,S2,Zebu,Male,23-Aug-19,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+72,Ab-Bur-072,Ab-Bur,16/6/2019S3,16-Jun-19,S3,Zebu,Male,23-Aug-19,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+73,Ab-Bur-073,Ab-Bur,25/7/2019S1,25-Jul-19,S1,Zebu,Male,23-Aug-19,1,Positive,Lung associated,Lung,Lung
+74,Ab-Sul-074,Ab-Sul,31/7/2019402,31-Jul-19,402,Cross,Male,23-Aug-19,1,Positive,Lung associated,Tracheobronchial,Tracheobronchial
+75,Ab-Bur-075,Ab-Bur,16/6/2019S3,16-Jun-19,S3,Zebu,Male,23-Aug-19,0,Negative,Head associated,Mandibular,Mandibular
+76,Ab-Bur-076,Ab-Bur,4356357,4-Aug-19,57,Zebu,Male,23-Aug-19,0,Negative,GIT associated,Mesenteric,Mesentric
+77,Ab-Sul-77,Ab-Sul,4380451,12-May-19,51,Cross,Female,5-Feb-20,0,Negative,GIT associated,Mesenteric,Mesentric
+78,Ab-Sul-78,Ab-Sul,4380451,12-May-19,51,Cross,Female,5-Feb-20,0,Negative,Lung associated,Diaphragm,Diaphragm
+79,Ab-Sul-79,Ab-Sul,30/4/201951,30-Apr-19,51,Cross,Female,5-Feb-20,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+80,Ab-Sul-80,Ab-Sul,24/5/201937,24-May-19,37,Zebu,Male,5-Feb-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+81,Ab-Sul-81,Ab-Sul,24/5/201937,24-May-19,37,Zebu,Male,5-Feb-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+82,Ab-Sul-82,Ab-Sul,30/5/201922,30-May-19,22,Cross,Male,5-Feb-20,0,Negative,Lung associated,Tracheobronchial,Right tracheobronchial
+83,Ab-Sul-083,Ab-Sul,4377516,11-Jun-19,16,Cross,Female,5-Feb-20,0,Negative,GIT associated,Hepatic,Hepatic
+84,Ab-Sul-84,Ab-Sul,15/6/20199F,15-Jun-19,9F,Cross,Female,5-Feb-20,0,Negative,Lung associated,Thoracic wall,Thoracic wall
+85,Ab-Bur-85,Ab-Bur,4356357,4-Aug-19,57,Zebu,Male,5-Feb-20,0,Negative,GIT associated,Mesenteric,Mesentric
+86,Ab-Sul-86,Ab-Sul,30/8/2019249A,30-Aug-19,249A,Cross,Female,5-Feb-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+87,Ab-Sul-87,Ab-Sul,29/11/2019400A,29-Nov-19,400A,Zebu,Male,14-Jan-20,0,Negative,Lung associated,Tracheobronchial,Right tracheobronchial
+88,Ab-Sul-88,Ab-Sul,29/11/2019400B,29-Nov-19,400B,Zebu,Male,14-Jan-20,0,Negative,GIT associated,Hepatic,Hepatic
+89,Ab-Sul-89,Ab-Sul,18/12/2019314,18-Dec-19,314,Cross,Male,14-Jan-20,0,Negative,GIT associated,Hepatic,Hepatic
+90,Ab-Sul-90,Ab-Sul,16/12/20196,16-Dec-19,6,Zebu,Male,14-Jan-20,0,Negative,GIT associated,Hepatic,Hepatic
+91,Ab-Sul-91,Ab-Sul,17/11/201951,17-Nov-19,51,Cross,Female,14-Jan-20,0,Negative,GIT associated,Mesenteric,Mesentric
+92,Ab-Sul-92,Ab-Sul,16/12/20196,16-Dec-19,6,Zebu,Male,14-Jan-20,0,Negative,Lung associated,Diaphragm,Diaphragmatic
+93,Ab-Sul-93,Ab-Sul,18/11/20194,18-Nov-19,4,Zebu,Male,14-Jan-20,0,Negative,GIT associated,Mesenteric,Mesentric
+94,Ab-Sul-94,Ab-Sul,16/11/201959,16-Nov-19,59,Cross,Female,14-Jan-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+95,Ab-Sul-95,Ab-Sul,20/11/201937,20-Nov-19,37,Cross,Female,14-Jan-20,1,Positive ,Lung associated,Tracheobronchial,Tracheobronchial
+96,Ab-Bur-96,Ab-Bur,4356279,4-Jul-19,79,Zebu,Male,14-Jan-20,0,Negative,Other,Prescapular,Prescapular
+97,Ab-Sul-97,Ab-Sul,29/11/2019400B,29-Nov-19,400B,Zebu,Male,18-Jan-20,1,Positive ,Lung associated,Diaphragm,Diaphragmatic
+98,Ab-Bur-98,Ab-Bur,29/10/2019S2,29-Oct-19,S2,Zebu,Male,18-Jan-20,0,Negative,Head associated,Mandibular,Mandibular
+99,Ab-Sul-99,Ab-Sul,29/11/2019400B,29-Nov-19,400B,Zebu,Male,18-Jan-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+100,Ab-Bur-100,Ab-Bur,29/11/2019356,29-Nov-19,356,Zebu,Male,18-Jan-20,1,Positive ,Lung associated,Tracheobronchial,Right tracheobronchial
+101,Ab-Sul-101,Ab-Sul,29/11/2019400B,29-Nov-19,400B,Zebu,Male,18-Jan-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+102,Ab-Sul-102,Ab-Sul,29/11/2019400B,29-Nov-19,400B,Zebu,Male,18-Jan-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+103,Ab-Sul-103,Ab-Sul,4378130,12-Nov-19,30,Cross,Female,18-Jan-20,0,Negative,Lung associated,Lung,Lung
+104,Ab-Sul-104,Ab-Sul,4378130,12-Nov-19,30,Cross,Female,18-Jan-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+105,Ab-Sul-105,Ab-Sul,4378130,12-Nov-19,30,Cross,Female,18-Jan-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+106,Ab-Sul-106,Ab-Sul,29/11/2019400A,29-Nov-19,400A,Zebu,Male,18-Jan-20,1,Positive ,Head associated,Retropharyngeal,Lateral Retropharyngeal
+107,Ab-Sul-107,Ab-Sul,29/11/2019400A,29-Nov-19,400A,Zebu,Male,18-Jan-20,0,Negative,Head associated,Mandibular,Mandibular
+108,Ab-Sul-108,Ab-Sul,29/11/2019400A,29-Nov-19,400A,Zebu,Male,18-Jan-20,1,Positive ,Head associated,Mandibular,Mandibular
+109,Ab-Sul-109,Ab-Sul,29/11/2019400B,29-Nov-19,400B,Zebu,Male,18-Jan-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+110,Ab-Sul-110,Ab-Sul,4378130,12-Nov-19,30,Cross,Female,18-Jan-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+111,Ab-Sul-111,Ab-Sul,27/10/201928B,27-Oct-19,28B,Cross,Female,18-Jan-20,1,Positive ,Head associated,Retropharyngeal,Retropharyngeal
+112,Ab-Bur-112,Ab-Bur,43781302,11-Dec-19,302,Zebu,Male,1-Mar-20,0,Negative,Head associated,Parotid,Parotid
+113,Ab-Bur-113,Ab-Bur,22/11/2019430,22-Nov-19,430,Zebu,Male,1-Mar-20,0,Negative,Lung associated,Lung,Lung
+114,Ab-Sul-114,Ab-Sul,4347678,1-Nov-19,78,Cross,Female,1-Mar-20,1,Positive ,Lung associated,Tracheobronchial,Left tracheobronchial
+115,Ab-Sul-115,Ab-Sul,4353530,3-Nov-19,30,Cross,Female,1-Mar-20,1,Positive ,Lung associated,Mediastinal,Cranial Mediastinal
+116,Ab-Sul-116,Ab-Sul,437792,11-Oct-19,2,Cross,Male,1-Mar-20,0,Negative,GIT associated,Mesenteric,Mesentric
+117,Ab-Sul-117,Ab-Sul,4353530,3-Nov-19,30,Cross,Female,1-Mar-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+118,Ab-Bur-118,Ab-Bur,27/10/2019208,27-Oct-19,208,Zebu,Male,1-Mar-20,0,Negative,GIT associated,Mesenteric,Mesentric
+119,Ab-Sul-119,Ab-Sul,14/10/201971,14-Oct-19,71,Cross,Female,1-Mar-20,0,Negative,GIT associated,Mesenteric,Mesentric
+120,Ab-Sul-120,Ab-Sul,4353530,3-Nov-19,30,Cross,Female,1-Mar-20,1,Positive ,Lung associated,Tracheobronchial,Left apical LN
+121,Ab-Sul-121,Ab-Sul,437792,11-Oct-19,2,Cross,Male,1-Mar-20,1,Positive ,Lung associated,Mediastinal,Caudal Mediiastinal 
+122,Ab-Sul-122,Ab-Sul,22/11/201933,22-Nov-19,30,Cross,Female,1-Mar-20,0,Negative,GIT associated,Mesenteric,Mesentric
+123,Ab-Bur-123,Ab-Bur,29/11/2019356,29-Nov-19,356,Zebu,Male,1-Mar-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+124,Ab-Bur-124,Ab-Bur,43891430,3-Jan-20,430,Zebu,Male,10-Feb-20,0,Negative,Head associated,Parotid,Parotid
+125,Ab-Bur-125,Ab-Bur,43835300,5-Jan-20,300,Zebu,Male,10-Feb-20,0,Negative,Head associated,Retropharyngeal,Lateral Retropharyngeal
+126,Ab-Bur-126,Ab-Bur,27/10/2019208,27-Oct-19,208,Zebu,Male,10-Feb-20,0,Negative,Head associated,Mandibular,Mandibular
+127,Ab-Bur-127,Ab-Bur,25/11/2019322,25-Nov-19,322,Zebu,Male,10-Feb-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+128,Ab-Bur-128,Ab-Bur,23/10/2019S3,23-Oct-19,S3,Zebu,Male,10-Feb-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+129,Ab-Bur-129,Ab-Bur,23/1/2020305,23-Jan-20,305,Zebu,Male,10-Feb-20,0,Negative,Head associated,Mandibular,Mandibular
+130,Ab-Bur-130,Ab-Bur,15/11/2019402,15-Nov-19,402,Zebu,Male,10-Feb-20,0,Negative,Lung associated,Lung,Lung
+131,Ab-Sul-131,Ab-Sul,27/7/2019279,27-Jul-19,279,Cross,Female,10-Feb-20,1,Positive ,Lung associated,Mediastinal,Caudal Mediastinal
+132,Ab-Bur-132,Ab-Bur,24/7/2019S2,24-Jul-19,S2,Zebu,Male,10-Feb-20,0,Negative,Lung associated,Lung,Lung
+133,Ab-Bur-133,Ab-Bur,43504S3,2-Aug-19,S3,Zebu,Male,10-Feb-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+134,Ab-Bur-134,Ab-Bur,23/8/2019501,23-Aug-19,501,Zebu,Male,10-Feb-20,0,Negative,Head associated,Mandibular,Mandibular 
+135,Ab-Bur-135,Ab-Bur,43504S3,2-Aug-19,S3,Zebu,Male,10-Feb-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+136,Ab-Bur-136,Ab-Bur,50171SLP2,5-Nov-19,SLP2,Zebu,Male,10-Feb-20,0,Negative,Lung associated,Lung,Lung
+137,Ab-Sul-137,Ab-Sul,436567,7-Oct-19,7,Zebu,Male,10-Feb-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal 
+138,Ab-Sul-138,Ab-Sul,31/7/2019402,31-Jul-19,402,Cross,Male,10-Feb-20,1,Positive ,Lung associated,Mediastinal,Caudal Mediastinal
+139,Ab-Bur-139,Ab-Bur,23/8/2019501,23-Aug-19,501,Zebu,Male,10-Feb-20,1,Positive ,Lung associated,Tracheobronchial,Tracheobronchial
+140,Ab-Bur-140,Ab-Bur,13/7/2019181,13-Jul-19,181,Zebu,Male,10-Feb-20,0,Negative,GIT associated,Spleen,Spleen
+141,Ab-Bur-141,Ab-Bur,43831232,1-Jan-20,232,Zebu,Male,10-Feb-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+142,Ab-Sul-142,Ab-Sul,31/7/2019402,31-Jul-19,402,Cross,Male,10-Feb-20,0,Negative,Other,Prescapular,Prescapular
+143,Ab-Sul-143,Ab-Sul,31/7/2019402,31-Jul-19,402,Cross,Male,10-Feb-20,0,Negative,Other,Prefemoral,Prefemoral
+144,Ab-Sul-144,Ab-Sul,14/7/201930,14-Jul-19,30,Cross,Female,19-Feb-20,1,Positive ,Lung associated,Mediastinal,Caudal Mediastinal
+145,Ab-Bur-145,Ab-Bur,43805320,7-Dec-19,320,Zebu,Male,19-Feb-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+146,Ab-Bur-146,Ab-Bur,43776448,11-Jul-19,448,Zebu,Male,19-Feb-20,0,Negative,Lung associated,Lung,Lung
+147,Ab-Bur-147,Ab-Bur,29/11/2019356,29-Nov-19,356,Zebu,Male,19-Feb-20,1,Positive ,Lung associated,Mediastinal,Caudal Mediastinal
+148,Ab-Bur-148,Ab-Bur,25/11/2019322,25-Nov-19,322,Zebu,Male,19-Feb-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+149,Ab-Bur-149,Ab-Bur,18/6/2019S2,18-Jun-19,S2,Zebu,Male,19-Feb-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+150,Ab-Sul-150,Ab-Sul,18/8/201959,18-Aug-19,59,Zebu,Male,19-Feb-20,0,Negative,GIT associated,Mesenteric,Mesentric
+151,Ab-Sul-151,Ab-Sul,14/7/201930,14-Jul-19,30,Cross,Female,19-Feb-20,1,Positive ,GIT associated,Hepatic,Hepatic
+152,Ab-Bur-152,Ab-Bur,43593441A,5-Aug-19,441A,Zebu,Male,19-Feb-20,1,Positive ,Lung associated,Lung,Lung
+153,Ab-Bur-153,Ab-Bur,27/10/2019208,27-Oct-19,208,Zebu,Male,19-Feb-20,0,Negative,Lung associated,Lung,Lung
+154,Ab-Bur-154,Ab-Bur,43781302,11-Dec-19,302,Zebu,Male,19-Feb-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+155,Ab-Sul-155,Ab-Sul,14/7/201930,14-Jul-19,30,Cross,Female,19-Feb-20,1,Positive ,Lung associated,Tracheobronchial,Right tracheobronchial
+156,Ab-Sul-156,Ab-Sul,25/10/201961,25-Oct-19,61,Zebu,Male,19-Feb-20,0,Negative,Head associated,Mandibular,Mandibular
+157,Ab-Sul-157,Ab-Sul,27/7/2019320,27-Jul-19,320,Zebu,Male,19-Feb-20,1,Positive ,Lung associated,Mediastinal,Caudal Mediastinal
+158,Ab-Sul-158,Ab-Sul,43718361,9-Oct-19,361,Zebu,Male,20-Mar-20,0,Negative,GIT associated,Mesenteric,Mesentric
+159,Ab-Sul-159,Ab-Bur,43564S5,4-Sep-19,S5,Zebu,Male,20-Mar-20,0,Negative,Lung associated,Lung,Lung
+160,Ab-Sul-160,Ab-Sul,27/10/201928A,27-Oct-19,28A,Cross,Female,20-Mar-20,0,Negative,Lung associated,Thoracic wall,Thoracic wall
+161,Ab-Sul-161,Ab-Sul,27/10/201928A,27-Oct-19,28A,Cross,Female,20-Mar-20,0,Negative,Other,Prescapular,Prescapular
+162,Ab-Sul-162,Ab-Sul,18/11/20194,18-Nov-19,4,Zebu,Male,20-Mar-20,0,Negative,Lung associated,Diaphragm,Diaphragm
+163,Ab-Sul-163,Ab-Sul,20/11/201937,20-Nov-19,37,Cross,Female,20-Mar-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal 
+164,Ab-Sul-164,Ab-Sul,20/11/201937,20-Nov-19,37,Cross,Female,20-Mar-20,0,Negative,Lung associated,Tracheobronchial,Right tracheobronchial
+165,Ab-Sul-165,Ab-Sul,20/11/201937,20-Nov-19,37,Cross,Female,20-Mar-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+166,Ab-Bur-166,Ab-Bur,14/10/2019314,14-Oct-19,314,Zebu,Male,20-Mar-20,0,Negative,Other,Prescapular,Prescapular
+167,Ab-Sul-167,Ab-Sul,18/12/2019314,18-Dec-19,314,Cross,Male,20-Mar-20,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+168,Ab-Sul-168,Ab-Sul,29/12/20198,29-Dec-19,8,Cross,Female,20-Mar-20,1,Positive ,Lung associated,Mediastinal,Caudal Mediastinal
+169,Ab-Sul-169,Ab-Sul,29/12/20198,29-Dec-19,8,Cross,Female,20-Mar-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+170,Ab-Sul-170,Ab-Sul,29/12/20198,29-Dec-19,8,Cross,Female,20-Mar-20,0,Negative,Lung associated,Lung,Lung
+171,Ab-Sul-171,Ab-Sul,15/1/2020101,15-Jan-20,101,Zebu,Male,20-Mar-20,0,Negative,GIT associated,Mesenteric,Mesentric
+172,Ab-Sul-172,Ab-Sul,15/7/20199,15-Jul-20,9,Cross,Female,20-Mar-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+173,Ab-Sul-173,Ab-Sul,15/7/20199,15-Jul-20,9,Cross,Female,20-Mar-20,0,Negative,Lung associated,Tracheobronchial,Right tracheobronchial
+174,Ab-Sul-174,Ab-Sul,15/7/20199,15-Jul-20,9,Cross,Female,20-Mar-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+175,Ab-Sul-175,Ab-Sul,17/1/202095A,17-Jan-20,95A,Zebu,Female,20-Mar-20,1,Positive ,Lung associated,Lung,Lung
+176,Ab-Sul-176,Ab-Sul,17/1/202095B,17-Jan-20,95B,Cross,Female,20-Mar-20,1,Positive ,Lung associated,Mediastinal,Caudal Mediastinal
+177,Ab-Sul-177,Ab-Sul,17/1/202095B,17-Jan-20,95B,Cross,Female,20-Mar-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+178,Ab-Sul-178,Ab-Sul,17/1/202095B,17-Jan-20,95B,Cross,Female,25-Mar-20,0,Negative,Lung associated,Lung,Lung
+179,Ab-Sul-179,Ab-Sul,19/1/202030,19-Jan-20,30,Cross,Female,25-Mar-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+180,Ab-Sul-180,Ab-Sul,19/1/202030,19-Jan-20,30,Cross,Female,25-Mar-20,1,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+181,Ab-Sul-181,Ab-Sul,19/1/202030,19-Jan-20,30,Cross,Female,25-Mar-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+182,Ab-Sul-182,Ab-Sul,25/1/2020249,25-Jan-20,249,Cross,Male,25-Mar-20,0,Negative,Lung associated,Diaphragm,Diaphragm
+183,Ab-Sul-183,Ab-Sul,17/2/2020249,17-Feb-20,249,Cross,Female,25-Mar-20,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+184,Ab-Sul-184,Ab-Sul,17/2/2020249,17-Feb-20,249,Cross,Female,25-Mar-20,0,Negative,GIT associated,Mesenteric,Mesentric
+185,Ab-Bur-185,Ab-Bur,4362861,6-Dec-19,61,Zebu,Male,25-Mar-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+186,Ab-Bur-186,Ab-Bur,43593441,5-Dec-19,441D,Zebu,Male,25-Mar-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+187,Ab-Bur-187,Ab-Bur,43781302,11-Dec-19,302,Zebu,Male,25-Mar-20,0,Negative,Lung associated,Tracheobronchial,Right tracheobronchial
+188,Ab-Bur-188,Ab-Bur,43593441,5-Dec-19,441D,Zebu,Male,25-Mar-20,0,Negative,Head associated,Retropharyngeal,Right Medial Retropharyngeal
+189,Ab-Bur-189,Ab-Bur,43593441,5-Dec-19,441D,Zebu,Male,25-Mar-20,0,Negative,Head associated,Retropharyngeal,Left Medial Retropharyngeal
+190,Ab-Bur-190,Ab-Bur,25/11/2019322,25-Nov-19,322,Zebu,Male,30-Mar-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+191,Ab-Bur-191,Ab-Bur,16/6/2019S3,16-Jun-19,S3,Zebu,Male,30-Mar-20,0,Negative,GIT associated,Mesenteric,Mesentric
+192,Ab-Bur-192,Ab-Bur,22/11/2019430,22-Nov-19,430,Zebu,Male,30-Mar-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+193,Ab-Bur-193,Ab-Bur,22/11/2019430,22-Nov-19,430,Zebu,Male,30-Mar-20,1,Positive,Lung associated,Mediastinal,Cranial Mediastinal
+194,Ab-Sul-194,Ab-Sul,27/7/2019320,27-Jul-19,320,Zebu,Male,30-Mar-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+195,Ab-Sul-195,Ab-Sul,43474249F,1-Sep-19,249F,Cross,Female,30-Mar-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+196,Ab-Sul-196,Ab-Sul,31/7/2019402,31-Jul-19,402,Cross,Male,30-Mar-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+197,Ab-Sul-197,Ab-Sul,4371430,6-Sep-19,30,Cross,Female,30-Mar-20,0,Negative,Lung associated,Lung,Lung
+198,Ab-Bur-198,Ab-Bur,43504S3,2-Aug-19,S3,Zebu,Male,30-Mar-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+199,Ab-Bur-199,Ab-Bur,50171SLP2,5-Nov-19,SLP2,Zebu,Male,30-Mar-20,0,Negative,Other,Prescapular,Prescapular
+200,Ab-Sul-200,Ab-Sul,43474249E,1-Sep-19,249E,Cross,Female,30-Mar-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+201,Ab-Sul-201,Ab-Sul,4353530,3-Nov-19,30,Cross,Female,30-Mar-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+202,Ab-Sul-202,Ab-Sul,43474249F,1-Sep-19,249F,Cross,Female,30-Mar-20,0,Negative,Lung associated,Diaphragm,Diaphragm
+203,Ab-Bur-203,Ab-Bur,20/2/2020232,20-Feb-20,232,Zebu,Male,3-Apr-20,0,Negative,Head associated,Retropharyngeal,Right Lateral Retropharyngeal
+204,Ab-Bur-204,Ab-Bur,20/2/2020232,20-Feb-20,232,Zebu,Male,3-Apr-20,0,Negative,Head associated,Retropharyngeal,Left Lateral Retropharyngeal
+205,Ab-Sul-205,Ab-Sul,27/7/2019279,27-Jul-19,279,Cross,Female,3-Apr-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+206,Ab-Bur-206,Ab-Bur,20/12/201956,20-Dec-19,56,Zebu,Male,3-Apr-20,0,Negative,Head associated,Mandibular,Mandibular
+207,Ab-Bur-207,Ab-Bur,43566S1,4-Nov-19,S1,Zebu,Male,3-Apr-20,1,Positive ,Lung associated,Lung,Lung
+208,Ab-Bur-208,Ab-Bur,18/6/2019S2,18-Jun-19,S2,Zebu,Male,3-Apr-20,0,Negative,Head associated,Mandibular,Mandibular 
+209,Ab-Bur-209,Ab-Bur,18/12/201973,18-Dec-19,73,Zebu,Male,3-Apr-20,0,Negative,Head associated,Mandibular,Mandibular
+210,Ab-Bur-210,Ab-Bur,20/2/2020483,20-Feb-20,483,Zebu,Male,3-Apr-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+211,Ab-Bur-211,Ab-Bur,23/8/2019501,23-Aug-19,501,Zebu,Male,3-Apr-20,1,Positive,Lung associated,Lung,Lung
+212,Ab-Bur-212,Ab-Bur,43891320,1-Mar-20,320,Zebu,Male,3-Apr-20,0,Negative,Head associated,Mandibular,Mandibular
+213,Ab-Sul-213,Ab-Sul,14/7/201930,14-Jul-19,30,Cross,Female,3-Apr-20,1,Positive ,Lung associated,Mediastinal,Cranial Mediastinal
+214,Ab-Bur-214,Ab-Sul,25/10/201961,25-Oct-19,61,Zebu,Male,3-Apr-20,0,Negative,Lung associated,Lung,Lung
+215,Ab-Bur-215,Ab-Bur,43593441A,5-Aug-19,441A,Zebu,Male,3-Apr-20,0,Negative,Head associated,Mandibular,Mandibular
+216,Ab-Bur-216,Ab-Bur,43507272,2-Nov-19,272,Zebu,Male,3-Apr-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+217,Ab-Bur-217,Ab-Bur,43564S5,4-Sep-19,S5,Zebu,Male,3-Apr-20,1,Positive ,Lung associated,Tracheobronchial,Tracheobronchial
+218,Ab-Bur-218,Ab-Bur,30/10/2019204,30-Oct-19,204,Zebu,Male,3-Apr-20,0,Negative,Lung associated,Lung,Lung
+219,Ab-Bur-219,Ab-Bur,21/6/2019S2,21-Jun-19,S2,Zebu,Male,3-Apr-20,0,Negative,Lung associated,Tracheobronchial,Left Tracheobronchial
+220,Ab-Bur-220,Ab-Bur,43593441A,5-Aug-19,441A,Zebu,Male,3-Apr-20,0,Negative,GIT associated,Mesenteric,Mesentric
+221,Ab-Bur-221,Ab-Bur,43566S3,4-Nov-19,S3,Zebu,Male,3-Apr-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+222,Ab-Bur-222,Ab-Bur,4362861,6-Dec-19,61,Zebu,Male,11-May-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+223,Ab-Sul-223,Ab-Sul,16/2/2020140,16-Feb-20,140,Cross,Female,11-May-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+224,Ab-Sul-224,Ab-Sul,31/1/202030,31-Jan-20,30,Cross,Female,11-May-20,1,Positive,Lung associated,Tracheobronchial,Right tracheobronchial
+225,Ab-Sul-225,Ab-Sul,16/2/2020140,16-Feb-20,140,Cross,Female,11-May-20,0,Negative,Lung associated,Lung,Lung
+226,Ab-Sul-226,Ab-Sul,31/1/202030,31-Jan-20,30,Cross,Female,11-May-20,0,Negative,GIT associated,Hepatic,Hepatic
+227,Ab-Sul-227,Ab-Sul,31/1/202030,31-Jan-20,30,Cross,Female,11-May-20,0,Negative,Lung associated,Diaphragm,Diaphragmatic
+228,Ab-Sul-228,Ab-Sul,28/2/20204,28-Feb-20,4,Zebu,Male,11-May-20,0,Negative,GIT associated,Hepatic,Hepatic
+229,Ab-Sul-229,Ab-Sul,16/2/2020140,16-Feb-20,140,Cross,Female,11-May-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+230,Ab-Sul-230,Ab-Sul,31/1/202030,31-Jan-20,30,Cross,Female,11-May-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+231,Ab-Sul-231,Ab-Sul,4413828,11-Mar-20,28,Zebu,Male,11-May-20,1,Positive,Head associated,Retropharyngeal,Right Retropharyngeal
+232,Ab-Sul-232,Ab-Sul,16/2/2020140,16-Feb-20,140,Cross,Female,11-May-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+233,Ab-Sul-233,Ab-Sul,4416781,12-Feb-20,81,Cross,Male,11-May-20,0,Negative,GIT associated,Mesenteric,Mesentric
+234,Ab-Sul-234,Ab-Sul,4413828,11-Mar-20,28,Zebu,Male,11-May-20,1,Positive,Head associated,Retropharyngeal,Left Retropharyngeal
+235,Ab-Sul-235,Ab-Sul,28/2/20204,28-Feb-20,4,Zebu,Male,11-May-20,0,Negative,GIT associated,Liver,Liver tissue
+236,Ab-Sul-236,Ab-Sul,4413828,11-Mar-20,28,Zebu,Male,11-May-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+237,Ab-Sul-237,Ab-Sul,31/1/202030,31-Jan-20,30,Cross,Female,11-May-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+238,Ab-Bur-238,Ab-Bur,15/3/2020249,15-Mar-20,249,Zebu,Male,11-May-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+239,Ab-Sul-239,Ab-Sul,31/1/202030,31-Jan-20,30,Cross,Female,11-May-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+240,Ab-Sul-240,Ab-Sul,4413828,11-Mar-20,28,Zebu,Male,11-May-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+241,Ab-Sul-241,Ab-Sul,13/1/2020402,13-Jan-20,420,Cross,Male,15-May-20,1,Positive,Head associated,Retropharyngeal,Right Medial Retropharyngeal
+242,Ab-Bur-242,Ab-Bur,44044300,8-Jan-20,300,Zebu,Male,15-May-20,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+243,Ab-Bur-243,Ab-Bur,22/2/2020470,22-Feb-20,470,Zebu,Male,15-May-20,0,Negative,Head associated,Parotid,Parotid
+244,Ab-Bur-244,Ab-Bur,43893230,3-Mar-20,230,Zebu,Male,15-May-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+245,Ab-Bur-245,Ab-Bur,19/2/202025,19-Feb-20,25,Zebu,Male,15-May-20,0,Negative,Head associated,Retropharyngeal,Right Medial Retropharyngeal
+246,Ab-Bur-246,Ab-Bur,43892502,3-Feb-20,502,Zebu,Male,15-May-20,0,Negative,Head associated,Mandibular,Mandibular
+247,Ab-Bur-247,Ab-Bur,22/2/2020374,22-Feb-20,374,Zebu,Male,15-May-20,0,Negative,Head associated,Mandibular,Mandibular
+248,Ab-Bur-248,Ab-Bur,4388525,24-Feb-20,25,Zebu,Male,15-May-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+249,Ab-Sul-249,Ab-Sul,25/4/202030,25-Apr-20,30,Cross,Female,15-May-20,0,Negative,Lung associated,Mediastinal,Mediastinal
+250,Ab-Bur-250,Ab-Bur,23/2/2020374,23-Feb-20,374,Zebu,Male,15-May-20,0,Negative,Head associated,Retropharyngeal,Retropharyngeal
+251,Ab-Bur-251,Ab-Bur,43953300,5-Feb-20,300,Zebu,Male,15-May-20,0,Negative,Head associated,Retropharyngeal,Right Lateral Retropharyngeal
+252,Ab-Bur-252,Ab-Bur,43953300,5-Feb-20,300,Zebu,Male,15-May-20,0,Negative,Head associated,Retropharyngeal,Left Lateral retrophryngeal
+253,Ab-Sul-253,Ab-Sul,43984430,6-Feb-20,430,Cross,Male,15-May-20,1,Positive,Head associated,Retropharyngeal,Left Medial Retropharyngeal
+254,Ab-Bur-254,Ab-Bur,23/2/202040,23-Feb-20,40,Zebu,Male,15-May-20,0,Negative,Head associated,Mandibular,Mandibular
+255,Ab-Bur-255,Ab-Bur,19/2/2020470,19-Feb-20,470,Zebu,Male,15-May-20,0,Negative,Head associated,Mandibular,Mandibular 
+256,Ab-Bur-256,Ab-Bur,23/1/2020305,23-Jan-20,305,Zebu,Male,15-May-20,0,Negative,Head associated,Retropharyngeal,Right Medial Retropharyngeal
+257,Ab-Sul-257,Ab-Sul,441051,10-Jan-20,1,Zebu,Male,15-May-20,0,Negative,GIT associated,Mesenteric,Mesentric
+258,Ab-Sul-258,Ab-Sul,31/8/2019249C,31-Aug-19,249C,Cross,Female,7-Sep-20,1,Positive,Lung associated,Mediastinal,Cranial Mediastinal
+259,Ab-Sul-259,Ab-Sul,31/8/2019249C,31-Aug-19,249C,Cross,Female,7-Sep-20,1,Positive,Lung associated,Mediastinal,Caudal  Mediastinal
+260,Ab-Sul-260,Ab-Sul,31/8/2019249C,31-Aug-19,249C,Cross,Female,7-Sep-20,1,Positive,Lung associated,Tracheobronchial,Tracheobronchial
+261,Ab-Bur-261,Ab-Bur,43776448,11-Jul-19,448,Zebu,Male,7-Sep-20,0,Negative,Other,Prescapular,Prescapular
+262,Ab-Bur-262,Ab-Bur,28/10/2019HIL3,28-Oct-19,HIL3,Zebu,Male,7-Sep-20,1,Positive,Lung associated,Lung,Lung
+263,Ab-Sul-263,Ab-Sul,31/8/2019249D,31-Aug-19,249D,Cross,Female,7-Sep-20,1,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+264,Ab-Sul-264,Ab-Sul,31/8/2019249D,31-Aug-19,249D,Cross,Female,7-Sep-20,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+265,Ab-Bur-265,Ab-Bur,43892502,3-Feb-20,502,Zebu,Male,7-Sep-20,0,Negative,Head associated,Parotid,Parotid
+266,Ab-Sul-266,Ab-Sul,24/8/2019136,24-Aug-19,136,Zebu,Male,7-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+267,Ab-Bur-267,Ab-Bur,13/12/2019308,13-Dec-19,308,Zebu,Male,29-Sep-20,0,Negative,Head associated,Retropharyngeal,Retropharyngeal
+268,Ab-Sul-268,Ab-Sul,13/10/201928,13-Oct-19,28,Cross,Female,7-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+269,Ab-Sul-269,Ab-Sul,31/8/2019249D,31-Aug-19,249D,Cross,Female,7-Sep-20,1,Positive,Lung associated,Mediastinal,Cranial Mediastinal
+270,Ab-Sul-270,Ab-Sul,31/8/2019249D,31-Aug-19,249D,Cross,Female,7-Sep-20,0,Negative,Lung associated,Thoracic wall,Thoracic wall
+271,Ab-Sul-271,Ab-Sul,31/8/2019249D,31-Aug-19,249D,Cross,Female,7-Sep-20,1,Positive,Lung associated,Tracheobronchial,Bronchial tissue
+272,Ab-Sul-272,Ab-Sul,18/10/201922,18-Oct-19,22,Cross,Male,7-Sep-20,1,Positive,GIT associated,Mesenteric,Mesentric
+273,Ab-Sul-273,Ab-Sul,27/10/201928A,27-Oct-19,28A,Cross,Female,7-Sep-20,1,Positive,GIT associated,Hepatic,Hepatic
+274,Ab-Sul-274,Ab-Sul,22/11/201933,22-Nov-19,33,Cross,Female,7-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+275,Ab-Sul-275,Ab-Sul,16/10/201977,16-Oct-19,77,Cross,Female,7-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+276,Ab-Burr-276,Ab-Bur,23/10/2019S3,23-Oct-19,S3,Zebu,Male,7-Sep-20,0,Negative,Head associated,Mandibular,Mandibular
+277,Ab-Sul-277,Ab-Sul,30/8/2019249A,30-Aug-19,249A,Cross,Female,7-Sep-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+278,Ab-Sul-278,Ab-Sul,4347678,1-Nov-19,78,Cross,Female,7-Sep-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+279,Ab-Sul-279,Ab-Sul,16/10/201977,16-Oct-19,77,Cross,Female,7-Sep-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+280,Ab-Sul-280,Ab-Sul,25/10/2019245,23-Oct-19,245,Cross,Female,7-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+281,Ab-Sul-281,Ab-Sul,4371430,6-Sep-19,30,Cross,Female,7-Sep-20,1,Positive,Lung associated,Tracheobronchial,Tracheobronchial
+282,Ab-Sul-282,Ab-Sul,44166115,12-Jan-20,115,Zebu,Male,7-Sep-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+283,Ab-Sul-283,Ab-Sul,4371430,6-Sep-19,30,Cross,Female,7-Sep-20,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+284,Ab-Sul-284,Ab-Sul,4371430,6-Sep-19,30,Cross,Female,7-Sep-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+285,Ab-Sul-285,Ab-Sul,30/8/2019249B,30-Aug-19,249B,Cross,Female,7-Sep-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+286,Ab-Bur-286,Ab-Bur,15/3/2020249,15-Mar-20,249,Zebu,Male,7-Sep-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+287,Ab-Sul-287,Ab-Sul,30/4/201951,30-Apr-20,51,Zebu,Female,7-Sep-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+288,Ab-Sul-288,Ab-Sul,4404651,8-May-20,51,Cross,Female,18-Sep-20,1,Positive,Lung associated,Diaphragm,Diaphragm
+289,Ab-Bur-289,Ab-Bur,43593441A,5-Aug-19,441A,Zebu,Male,18-Sep-20,0,Negative,Other,Prescapular,Prescapular
+290,Ab-Sul-290,Ab-Sul,22/9/2019249,22-Sep-19,249,Cross,Female,18-Sep-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+291,Ab-Sul-291,Ab-Sul,22/9/2019249,22-Sep-19,249,Cross,Female,18-Sep-20,1,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+292,Ab-Sul-292,Ab-Sul,22/9/2019249,22-Sep-19,249,Cross,Female,18-Sep-20,1,Positive,Lung associated,Tracheobronchial,Tracheobronchial
+293,Ab-Sul-293,Ab-Sul,22/9/2019249,22-Sep-19,249,Cross,Female,18-Sep-20,1,Positive,Lung associated,Mediastinal,Cranial Mediastinal
+294,Ab-Sul-294,Ab-Sul,18/3/2020119,18-Mar-20,119,Zebu,Male,18-Sep-20,0,Negative,Head associated,Retropharyngeal,Retropharyngeal
+295,Ab-Sul-295,Ab-Sul,4392428,4-Mar-20,28,Cross,Male,18-Sep-20,1,Positive,Lung associated,Tracheobronchial,Right tracheobronchial
+296,Ab-Sul-296,Ab-Sul,43953245,5-Feb-20,245,Cross,Female,18-Sep-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+297,Ab-Sul-297,Ab-Sul,18/3/20204,18-Mar-20,4,Cross,Female,18-Sep-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+298,Ab-Bur-298,Ab-Bur,15/3/2020249,15-Mar-20,249,Zebu,Male,18-Sep-20,0,Negative,Lung associated,Tracheobronchial,Right tracheobronchial
+299,Ab-Sul-299,Ab-Sul,44166115,12-Jan-20,115,Zebu,Male,18-Sep-20,1,Positive,Lung associated,Mediastinal,Cranial Mediastinal
+300,Ab-Sul-300,Ab-Sul,4392428,4-Mar-20,28,Cross,Male,18-Sep-20,1,Positive,Lung associated,Tracheobronchial,Left Bronchial
+301,Ab-Sul-301,Ab-Sul,4392428,4-Mar-20,28,Cross,Male,18-Sep-20,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+302,Ab-Sul-302,Ab-Sul,43953245,5-Feb-20,245,Cross,Female,18-Sep-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+303,Ab-Sul-303,Ab-Sul,43566S3,4-Nov-19,S3,Zebu,Male,18-Sep-20,0,Negative,Head associated,Mandibular,Mandibular
+304,Ab-Sul-304,Ab-Sul,25/1/2020249,25-Jan-20,249,Cross,Male,18-Sep-20,1,Positive,Lung associated,Tracheobronchial,Tracheobronchial
+305,Ab-Sul-305,Ab-Sul,27/4/202042,27-Apr-20,42,Cross,Female,18-Sep-20,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+306,Ab-Sul-306,Ab-Sul,4404651,8-Mar-20,51,Cross,Female,18-Sep-20,0,Negative,Lung associated,Tracheobronchial,Left Bronchial
+307,Ab-Sul-307,Ab-Sul,18/3/2020119,18-Mar-20,119,Zebu,Male,18-Sep-20,1,Positive,Lung associated,Mediastinal,Caudal Mediastinal
+308,Ab-Sul-308,Ab-Sul,25/4/202030,25-Apr-20,30,Cross,Female,18-Sep-20,1,Positive,Lung associated,Tracheobronchial,Right tracheobroncheal
+309,Ab-Bur-309,Ab-Bur,43900285,10-Mar-20,285,Zebu,Male,18-Sep-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+310,Ab-Sul-310,Ab-Sul,44166115,12-Jan-20,115,Zebu,Male,18-Sep-20,1,Positive,Lung associated,Tracheobronchial,Right tracheobronchial
+311,Ab-Sul-311,Ab-Sul,43953245,5-Feb-20,245,Cross,Female,18-Sep-20,0,Negative,Lung associated,Lung,Lung
+312,Ab-Sul-312,Ab-Sul,44166115,12-Jan-20,115,Zebu,Male,23-Sep-29,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+313,Ab-Sul-313,Ab-Sul,4392428,4-Mar-20,28,Cross,Male,23-Sep-20,1,Positive,Lung associated,Lung,Lung
+314,Ab-Sul-314,Ab-Sul,43901330,10-Mar-20,330,Zebu,Male,23-Sep-29,0,Negative,Head associated,Mandibular,Mandibular
+315,Ab-Bur-315,Ab-Bur,23/10/2019S3,23-Oct-19,S3,Zebu,Male,7-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+316,Ab-Bur-316,Ab-Bur,21/1/2020280,21-Jan-20,280,Zebu,Male,23-Sep-20,0,Negative,Head associated,Parotid,Parotid
+317,Ab-Sul-317,Ab-Sul,20/4/202057,20-Apr-20,57,Cross,Male,23-Sep-20,1,Positive,Lung associated,Lung,Lung
+318,Ab-Sul-318,Ab-Sul,20/4/202057,20-Apr-20,57,Cross,Male,23-Sep-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+319,Ab-Bur-319,Ab-Bur,21/1/2020280,21-Jan-20,280,Zebu,Male,23-Sep-20,1,Positive,Head associated,Retropharyngeal,Right Lateral Retropharyngeal
+320,Ab-Bur-320,Ab-Bur,15/3/2020249,15-Mar-20,249,Zebu,Male,23-Sep-20,0,Negative,Lung associated,Tracheobronchial,Left Apical LN
+321,Ab-Sul-321,Ab-Sul,28/4/2020249,28-Apr-20,249,Cross,Female,23-Sep-20,1,Positive,Lung associated,Tracheobronchial,Right tracheobroncheal
+322,Ab-Bur-322,Ab-Bur,43718139,9-Oct-19,139,Zebu,Male,23-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+323,Ab-Bur-322,Ab-Bur,43718139,9-Oct-19,139,Zebu,Male,23-Sep-20,1,Positive,Head associated,Mandibular,Mandibular
+324,Ab-Bur-324,Ab-Bur,21/1/2020280,21-Jan-20,280,Zebu,Male,23-Sep-20,1,Positive,Head associated,Retropharyngeal,Left Lateral retrophryngeal
+325,Ab-Bur-325,Ab-Bur,43895530,5-Mar-20,530,Zebu,Male,23-Sep-20,0,Negative,Head associated,Retropharyngeal,Left Medial Retropharyngeal
+326,Ab-Bur-326,Ab-Bur,15/3/2020249,15-Mar-20,249,Zebu,Male,23-Sep-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+327,Ab-Sul-327,Ab-Sul,30/8/2019249B,30-Aug-20,249B,Cross,Female,23-Sep-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+328,Ab-Bur-328,Ab-Bur,26/10/2019204,26-Oct-19,204,Zebu,Male,23-Sep-20,0,Negative,Lung associated,Lung,Lung
+329,Ab-Bur-329,Ab-Bur,43718139,9-Oct-19,139,Zebu,Male,23-Sep-20,1,Positive,Lung associated,Tracheobronchial,Tracheobronchial
+330,Ab-Bur-330,Ab-Bur,23/8/2019501,23-Aug-19,501,Zebu,Male,23-Sep-20,0,Negative,Other,Prescapular,Prescapular
+331,Ab-Bur-331,Ab-Bur,5026375,8-Nov-19,75,Zebu,Male,23-Sep-20,0,Negative,Lung associated,Lung,Lung
+332,Ab-Bur-332,Ab-Bur,43893448,3-Mar-20,448,Zebu,Male,23-Sep-20,0,Negative,Head associated,Retropharyngeal,Right Retropharyngeal
+333,Ab-Sul-333,Ab-Sul,31/8/2019249C,31-Aug-19,249C,Cross,Female,23-Sep-20,1,Positive,Lung associated,Lung,Lung
+334,Ab-Sul-334,Ab-Sul,25/1/2020249,25-Jan-20,249,Cross,Male,23-Sep-20,1,Positive,Lung associated,Lung,Lung
+335,Ab-Sul-335,Ab-Sul,18/10/201928,18-Oct-19,28,Zebu,Female,23-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+336,Ab-Bur-336,Ab-Bur,13/12/2019308,13-Dec-19,308,Zebu,Male,23-Sep-20,1,Positive,Head associated,Retropharyngeal,Retropharyngeal
+337,Ab-Sul-337,Ab-Sul,43474249E,1-Sep-19,249E,Cross,Female,23-Sep-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+338,Ab-Sul-338,Ab-Sul,27/10/201928A,27-Oct-19,28A,Cross,Female,23-Sep-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+339,Ab-Sul-339,Ab-Sul,26/8/2019279,26-Aug-19,279,Zebu,Male,23-Sep-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+340,Ab-Sul-340,Ab-Sul,4377959,11-Oct-19,59,Zebu,Male,23-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+341,Ab-Sul-341,Ab-Sul,4347678,1-Nov-19,78,Cross,Female,23-Sep-20,1,Positive,Head associated,Mandibular,Mandibular
+342,Ab-Sul-342,Ab-Sul,27/10/201928A,27-Oct-19,28A,Cross,Female,23-Sep-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+343,Ab-Sul-343,Ab-Sul,43474249E,1-Sep-19,249E,Cross,Female,23-Sep-20,1,Positive,Lung associated,Diaphragm,Left Diaphragmatic
+344,Ab-Sul-344,Ab-Sul,43474249E,1-Sep-19,249E,Cross,Female,23-Sep-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+345,Ab-Sul-345,Ab-Sul,27/10/201928A,27-Oct-19,28A,Cross,Female,23-Sep-20,0,Negative,Lung associated,Lung,Lung
+346,Ab-Sul-346,Ab-Sul,25/8/201959,25-Aug-19,59,Cross,Female,23-Sep-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+347,Ab-Sul-347,Ab-Sul,43474249F,1-Sep-19,249F,Cross,Female,23-Sep-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+348,Ab-Sul-348,Ab-Sul,43474249F,1-Sep-19,249F,Cross,Female,23-Sep-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+349,Ab-Bur-349,Ab-Bur,26/10/2019204,26-Oct-19,204,Zebu,Male,23-Sep-20,0,Negative,Head associated,Mandibular,Mandibular
+350,Ab-Sul-350,Ab-Sul,27/10/201928B,27-Oct-19,28B,Cross,Female,23-Sep-20,0,Negative,GIT associated,Pevic cavity,Pelvic cavity
+351,Ab-Sul-351,Ab-Sul,25/4/202030,25-Apr-20,30,Cross,Female,25-Sep-20,0,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+352,Ab-Sul-352,Ab-Sul,28/4/2020249,28-Apr-20,249,Cross,Female,25-Sep-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+353,Ab-Sul-353,Ab-Sul,4392428,4-Mar-20,28,Cross,Male,25-Sep-20,1,Negative,Lung associated,Mediastinal,Cranial Mediastinal
+354,Ab-Sul-354,Ab-Sul,30/4/202035,30-Apr-20,35,Cross,Male,25-Sep-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+355,Ab-Bur-355,Ab-Bur,13/12/2019308,13-Dec-19,308,Zebu,Male,29-Sep-20,0,Negative,Head associated,Mandibular,Mandibular
+356,Ab-Sul-356,Ab-Sul,30/4/202035,30-Apr-20,35,Cross,Male,25-Sep-20,0,Negative,Lung associated,Tracheobronchial,Right tracheobronchial
+357,Ab-Sul-357,Ab-Sul,30/4/202035,30-Apr-20,35,Cross,Male,25-Sep-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+358,Ab-Sul-358,Ab-Sul,30/4/202035,30-Apr-20,35,Cross,Male,25-Sep-20,0,Negative,Lung associated,Thoracic wall,Thoracic wall
+359,Ab-Bur-359,Ab-Bur,20/2/2020320,20-Feb-20,320,Zebu,Male,25-Sep-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+360,Ab-Bur-360,Ab-Bur,20/1/2020501,20-Jan-20,501,Zebu,Male,25-Sep-20,0,Negative,Head associated,Retropharyngeal,Right Lateral Retropharyngeal
+361,Ab-Bur-361,Ab-Bur,43806320,12-Jul-19,320,Zebu,Male,25-Sep-20,0,Negative,Lung associated,Mediastinal,Caudal Mediastinal
+362,Ab-Bur-362,Ab-Bur,43806320,12-Jul-19,320,Zebu,Male,25-Sep-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+363,Ab-Bur-363,Ab-Bur,43564S5,4-Sep-19,S5,Zebu,Male,25-Sep-20,0,Negative,Other,Prescapular,Prescapular
+364,Ab-Bur-364,Ab-Bur,43564S5,4-Sep-19,S5,Zebu,Male,25-Sep-20,0,Negative,GIT associated,Mesenteric,Mesenteric
+365,Ab-Bur-365,Ab-Bur,43779312,11-Oct-19,312,Zebu,Male,25-Sep-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+366,Ab-Bur-366,Ab-Bur,43779312,11-Oct-19,312,Zebu,Male,29-Sep-20,0,Negative,Head associated,Mandibular,Mandibular
+367,Ab-Bur-367,Ab-Bur,14/10/2019314,14-Oct-19,314,Zebu,Male,29-Sep-20,0,Negative,GIT associated,Mesenteric,Mesenteric
+368,Ab-Bur-368,Ab-Bur,14/10/2019314,14-Oct-19,314,Zebu,Male,29-Sep-20,0,Negative,Lung associated,Tracheobronchial,Tracheobronchial
+369,Ab-Bur-369,Ab-Bur,14/10/2019314,14-Oct-19,314,Zebu,Male,29-Sep-20,0,Negative,Head associated,Mandibular,Mandibular
+370,Ab-Bur-370,Ab-Bur,19/2/2020470,19-Feb-20,470,Zebu,Male,29-Sep-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+371,Ab-Bur-371,Ab-Bur,43892502,3-Feb-20,502,Zebu,Male,29-Sep-20,0,Negative,Lung associated,Tracheobronchial,Left tracheobronchial
+372,Ab-Bur-372,Ab-Bur,43984430,6-Feb-20,430,Zebu,Male,29-Sep-20,0,Negative,Head associated,Retropharyngeal,Right Medial Retropharyngeal
+373,Ab-Bur-373,Ab-Bur,28/10/2019HIL3,28-Oct-19,HIL3,Zebu,Male,29-Sep-20,0,Negative,Head associated,Mandibular,Mandibular
+374,Ab-Bur-374,Ab-Bur,28/10/2019HIL3,28-Oct-19,HIL3,Zebu,Male,29-Sep-20,0,Negative,Other,Prescapular,Prescapular
+375,Ab-Bur-375,Ab-Sul,25/10/201961,25-Oct-19,61,Zebu,Male,29-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+376,Ab-Bur-376,Ab-Bur,29/10/2019S2,29-Oct-19,S2,Zebu,Male,29-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+377,Ab-Bur-377,Ab-Bur,30/10/2019204,30-Oct-19,204,Zebu,Male,29-Sep-20,0,Negative,Head associated,Mandibular,Mandibular
+378,Ab-Bur-378,Ab-Bur,43507272,2-Nov-19,272,Zebu,Male,29-Sep-20,0,Negative,Head associated,Mandibular,Mandibular
+379,Ab-Bur-379,Ab-Bur,43507272,2-Nov-19,272,Zebu,Male,29-Sep-20,1,Positive ,GIT associated,Mesenteric,Mesentric
+380,Ab-Bur-380,Ab-Bur,43566S3,4-Nov-19,S3,Zebu,Male,29-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+381,Ab-Bur-381,Ab-Bur,43627SL1,6-Nov-19,SL1,Zebu,Male,29-Sep-20,1,Positive ,Lung associated,Lung,Lung
+382,Ab-Sul-382,Ab-Sul,43719204,9-Nov-19,204,Zebu,Male,29-Sep-20,0,Negative,Head associated,Mandibular,Mandibular
+383,Ab-Sul-383,Ab-Sul,43719204,9-Nov-19,204,Zebu,Male,29-Sep-20,1,Positive ,Lung associated,Lung,Lung
+384,Ab-Bur-384,Ab-Bur,43507272,2-Nov-19,272,Zebu,Male,29-Sep-20,0,Negative,Lung associated,Lung,Lung
+385,Ab-Bur-385,Ab-Sul,25/10/201961,25-Oct-19,61,Zebu,Male,29-Sep-20,0,Negative,Other,Prescapular,Prescapular
+386,Ab-Bur-386,Ab-Bur,28/10/2019HIL3,28-Oct-19,HIL3,Zebu,Male,29-Sep-20,0,Negative,GIT associated,Mesenteric,Mesentric
+387,Ab-Bur-387,Ab-Bur,4388525,24-Feb-20,25,Zebu,Male,29-Sep-20,0,Negative,Head associated,Parotid,Parotid
+388,Ab-Bur-388,Ab-Bur,43564S5,4-Sep-19,S5,Zebu,Male,25-Sep-20,0,Negative,Head associated,Mandibular,Mandibular
